@@ -140,7 +140,7 @@ We'll create a cluster out of seven Linux virtual machines:
 * one VM will simulate a cloud/hardware load balancer for the Kubernetes API
 * the remaining three VMs will serve as [worker nodes](https://kubernetes.io/docs/concepts/overview/components/#node-components)
 
-The host (macOS) machine will also require some setup:
+The host (Linux) machine will also require some setup:
 * it will run the virtual network between the VMs and provide internet access
 * it will simulate external mass storage (e.g. a disk array) for Kubernetes, using an NFS-exported directory
 
